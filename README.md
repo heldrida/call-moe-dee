@@ -16,6 +16,13 @@ Import it into your project like you do with your regular libraries
 import callMoeDee from 'call-mode-dee'
 ```
 
+or, that funky ol' school way brotha and sista
+
+```
+var callMoeDee = require('call-moe-dee')
+```
+
+
 Pass the parameters to `callMoeDee` do resolve once your condition is ready!
 
 ```
