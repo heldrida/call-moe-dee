@@ -1,6 +1,6 @@
 # Call Moe Dee
 
-Yo! Ain't me whoz gonna leave dirty ass calls in the wild! Call Moe Dee (inspired by Kool Moe Dee, Wild Wild West theme song) is a helper function that make's timed recursive calls, if a given condition does not pass after a given amount of time. When the condition test passes, a callback function is called, terminating it! Also, for each recursive or step in the call stack, there is a stepCallback callback function if required. Hell yeah! No mo' breaking necks guessing when you is able to make those godammit calls!
+Yo! Ain't me who's gonna leave calls in the Wild Wild West! Call Moe Dee (inspired by Kool Moe Dee, Wild Wild West theme song) is a helper function that make timed recursive calls, if a given condition does not pass. When the condition test passes, a callback function is called, terminating the timed recursive calls! Also, for each recursive or step in the call stack, there is a stepCallback callback function if required. So, hell yeah! No mo' breakin' neck guessing when you is able to make those goddam calls!
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/n_AMPcFym0Q/0.jpg)](http://www.youtube.com/watch?v=n_AMPcFym0Q "Kool Moe Dee - The Wild Wild West!")
 
