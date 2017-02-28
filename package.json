@@ -1,7 +1,7 @@
 {
   "name": "call-moe-dee",
-  "version": "0.0.1b",
-  "description": "Yo! Ain't me whoz gonna leave dirty ass calls in the wild! Call Moe Dee (inspired by Kool Moe Dee, Wild Wild West theme song) is a helper function that make's timed recursive calls, if a given condition does not pass after a given amount of time. When the condition test passes, a callback function is called, terminating it! Also, for each recursive or step in the call stack, there is a stepCallback callback function if required. Hell yeah! No mo' breaking necks guessing when you is able to make those godammit calls!",
+  "version": "0.0.1c",
+  "description": "Yo! Ain't me who's gonna leave those calls in the Wild Wild West! Call-Moe-Dee (inspired by Kool Moe Dee, Wild Wild West theme song) is a helper function that makes timed recursive calls, if a given condition does not pass, repeatedly, over a period of time, until a condition is met! When the condition test passes, a callback function is called, terminating the timed recursive calls! Also, for each recursive or step in the call stack, there is a stepCallback callback function, if required. So, hell yeah! No mo' breakin' da neck guessing when you is able to make those goddam calls doug!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,9 @@
   },
   "keywords": [
     "javascript",
-    "recursive"
+    "recursive",
+    "loop",
+    "stack"
   ],
   "author": "Punkbit",
   "license": "WTFPL",
