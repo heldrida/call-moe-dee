@@ -1,5 +1,5 @@
 {
-  "name": "callmoedee",
+  "name": "call-moe-dee",
   "version": "0.0.1",
   "description": "Yo! Ain't me whoz gonna leave dirty ass calls in the wild! Call Moe Dee (inspired by Kool Moe Dee, Wild Wild West theme song) is a helper function that make's timed recursive calls, if a given condition does not pass after a given amount of time. When the condition test passes, a callback function is called, terminating it! Also, for each recursive or step in the call stack, there is a stepCallback callback function if required. Hell yeah! No mo' breaking necks guessing when you is able to make those godammit calls!",
   "main": "index.js",
