@@ -57,11 +57,8 @@ let global = {
 callMoeDee({
   name: 'My callMoeDee test', // for your convenience, to help debug, etc
   time: {
-    start: new Date().getTime(),
-    end: 0,
-    totalMs: 0,
-    maxMs:10000,
-    retryAfterMs: 1000,
+    maxMs: 10000, // if omitted, defaults to 40000ms
+    retryAfterMs: 200, // if omitted, defaults to 1000ms
     exceedMaxTimeCallback: () => {
       console.log('The caller exceedMaxTimeout!')
     }
