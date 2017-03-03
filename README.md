@@ -23,7 +23,7 @@ var callMoeDee = require('call-moe-dee')
 ```
 
 
-Pass the parameters to `callMoeDee` do resolve once your condition is ready!
+Pass the parameters to `callMoeDee`, that will resolve to the callback once your condition pass!
 
 ```
 const params = {
@@ -34,6 +34,9 @@ const params = {
     exceedMaxTimeCallback: () => {
       console.log('The caller exceedMaxTimeout!')
     }
+  },
+  stepCallback: () => {
+    // this parameter is optional (triggered in each step)
   },
   condition: {
     test: () => (global && global.stop),
@@ -64,6 +67,9 @@ callMoeDee({
     exceedMaxTimeCallback: () => {
       console.log('The caller exceedMaxTimeout!')
     }
+  },
+  stepCallback: () => {
+    console.log('Step call!')
   },
   condition: {
     test: () => (global && global.stop),

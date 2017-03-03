@@ -20,7 +20,7 @@ module.exports = function (params) {
       clearTimeout(params.timeout)
       if (typeof params.stepCallback === 'function') {
         params.debug && console.log('[DEBUG ' + params.name + '] has a stepCallback and should call')
-        params.setCallback()
+        params.stepCallback()
       }
       params.debug && console.log('[DEBUG ' + params.name + '] should recall / recursive')
       module.exports(params)
